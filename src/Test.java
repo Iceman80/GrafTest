@@ -18,7 +18,7 @@ public class Test extends JFrame {
     }
 
     private void button1ActionPerformed(ActionEvent e) {
-        System.out.println("Hello");
+        System.out.println("Проба");
     }
 
 
@@ -45,12 +45,12 @@ public class Test extends JFrame {
 
 
             //---- button1 ----
-            button1.setText("\u0416\u043c\u0438");
+            button1.setText("\u0416\u043c\u0438 \u0437\u0434\u0435\u0441\u044c");
             button1.setFont(new Font("Times New Roman", Font.PLAIN, 30));
             button1.addActionListener(e -> button1ActionPerformed(e));
 
             //---- label1 ----
-            label1.setText("Test");
+            label1.setText("\u041f\u0440\u043e\u0431\u0430");
             label1.setFont(new Font("Times", Font.PLAIN, 30));
             label1.setForeground(new Color(102, 51, 255));
             label1.setBackground(Color.yellow);
